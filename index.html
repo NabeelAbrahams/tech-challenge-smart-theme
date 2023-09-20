@@ -4,14 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestselling Products - Smart Theme Tech Challenge </title>
-    <!-- Include TailwindCSS -->
+    <!-- include TailwindCSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        /* Custom styles for scrollbar thumb hover effect */
-        ::-webkit-scrollbar-thumb:hover {
-            height: 6px;
-        }
-    </style>
 </head>
 
 <body class="flex w-[1920px] flex-col items-start gap-9 pt-20 pb-[100px] px-32">
@@ -19,31 +13,61 @@
     <!-- Header -->
     <header class="bg-white flex justify-between items-center self-stretch">
         <h1 class="w-355 text-neutral-black font-source-serif-pro text-4xl font-extrabold leading-9 tracking-tight">Best Sellers</h1>
-        <button class="flex items-center justify-centerflex justify-center items-center gap-2 px-8 py-4 rounded-[100px]">Shop All Best Sellers <div><img src="./Users/nabeel/Desktop/smart theme/tech-challenge/assets/arrow-narrow-right.svg" alt="Arrow Icon" class=""></div></button>
+        <button class="flex items-center justify-centerflex justify-center items-center gap-2 px-8 py-4 rounded-[100px]">Shop All Best Sellers <div><img src="./assets/arrow-narrow-right.svg" alt="Arrow Icon" class=""></div></button>
     </header>
 
     <!-- Product Cards Container -->
-    <div class="">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="flex flex-col items-start gap-12 self-stretch">
+        <div class="flex items-start gap-6">
             <!-- Product Card 1 -->
-            <div class="bg-white rounded-lg shadow-lg p-4">
-                <img src="product1.jpg" alt="Product 1" class="w-full h-32 object-cover mb-4">
-                <h2 class="text-xl font-semibold">Product 1</h2>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Buy Now</button>
+            <div class="flex flex-col items-start gap-4 self-stretch pb-0" id="product-modal">
+                <div class="flex w-[355px] h-[355px] items-center pl-2 pr-[286px] pt-2 pb-[327px]" id="product-image">
+                    <img src="./assets/product1.jpg" alt="Product 1" class="rounded-[10px]">
+                </div>
+                <div class="flex w-[355px] flex-col items-start gap-5" id="product-details">
+                    <div id="product-details-text" class="flex flex-col items-start gap-2 self-stretch px-3 py-0">
+                        <div class="self-stretch text-color-[#1C1D1D] text-lg not-italic font-normal leading-[normal] tracking-[0.54px] uppercase">Product 1</div>
+                        <div class="flex items-center gap-1 self-stretch" id="product-reviews">
+                            <div class="flex items-center gap-0.5" id="product-reviews-stars">
+                                <img src="./assets/star-01.svg">
+                                <img src="./assets/star-01.svg">
+                                <img src="./assets/star-01.svg">
+                                <img src="./assets/star-01.svg">
+                                <img src="./assets/star-01.svg">
+                            </div>
+                            <p class="text-[#707070] text-xs not-italic font-normal leading-[normal]">1,234 Reviews</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Product Card 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-4">
-                <img src="product2.jpg" alt="Product 2" class="w-full h-32 object-cover mb-4">
+            <div class="flex flex-col items-start gap-4 self-stretch pb-0">
+                <img src="./assets/product1.jpg" alt="Product 2" class="w-full h-32 object-cover mb-4">
                 <h2 class="text-xl font-semibold">Product 2</h2>
                 <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Buy Now</button>
             </div>
 
             <!-- Product Card 3 -->
-            <div class="bg-white rounded-lg shadow-lg p-4">
-                <img src="product3.jpg" alt="Product 3" class="w-full h-32 object-cover mb-4">
+            <div class="flex flex-col items-start gap-4 self-stretch pb-0">
+                <img src="./assets/product1.jpg" alt="Product 3" class="w-full h-32 object-cover mb-4">
+                <h2 class="text-xl font-semibold">Product 3</h2>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Buy Now</button>
+            </div>
+            
+            <!-- Product Card 3 -->
+            <div class="flex flex-col items-start gap-4 self-stretch pb-0">
+                <img src="./assets/product1.jpg" alt="Product 3" class="w-full h-32 object-cover mb-4">
+                <h2 class="text-xl font-semibold">Product 3</h2>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Buy Now</button>
+            </div>
+            
+            <!-- Product Card 3 -->
+            <div class="flex flex-col items-start gap-4 self-stretch pb-0">
+                <img src="./assets/product1.jpg" alt="Product 3" class="w-full h-32 object-cover mb-4">
                 <h2 class="text-xl font-semibold">Product 3</h2>
                 <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">Buy Now</button>
