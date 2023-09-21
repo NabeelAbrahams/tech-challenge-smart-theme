@@ -701,7 +701,10 @@
         </div>
       </div>
       <!-- hidden mobile products -->
-      <div class="hidden" id="mobile-hidden-products">
+      <div
+        class="overflow-hidden max-h-0 transition-max-height"
+        id="mobile-hidden-products"
+      >
         <!-- mobile products row 3 -->
         <div
           id="mobile-products-row-3"
@@ -1156,11 +1159,11 @@
 
       // Add a click event listener to the "Show More" button
       showMoreButton.addEventListener("click", function () {
-        // Toggle the "hidden" class on the mobileHiddenProducts div
-        mobileHiddenProducts.classList.toggle("hidden");
+        // Toggle the "max-h-0" class on the mobileHiddenProducts div
+        mobileHiddenProducts.classList.toggle("max-h-0");
 
         // Change the text of the button based on the current state
-        if (mobileHiddenProducts.classList.contains("hidden")) {
+        if (mobileHiddenProducts.classList.contains("max-h-0")) {
           showMoreButton.textContent = "Show More";
         } else {
           showMoreButton.textContent = "Show Less";
