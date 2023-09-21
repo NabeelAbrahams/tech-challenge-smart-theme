@@ -6,6 +6,8 @@ This repository contains the solution to the tech challenge, which involves recr
 
 The deployed application can be found [Live Here](https://nabeelabrahams.github.io/tech-challenge-smart-theme/).
 
+![Aplpication Desktop View](./assets/desktop-view.png)
+
 ## Design Details
 
 The design to be recreated can be found in [Figma](https://www.figma.com/file/K8ebUjtI8Ikh9ZY1BhOY1I/Tech-Challenge?type=design&node-id=0%3A1&mode=design&t=gadmH4sD1zCcsJ0g-1).
