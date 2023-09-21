@@ -34,20 +34,6 @@ The following technologies and libraries are used in this project:
 - The scrollbar thumb increases to a height of 6px when hovered or touched.
 - A "Show More" button (mobile-only) triggers a dropdown revealing additional product cards.
 
-## Getting Started
-
-To view the project locally or make changes, follow these steps:
-
-1. Clone this repository to your local machine:
-
-```bash
-git clone <repository-url>
-```
-
-2. Open the `index.html` file in your preferred web browser to see the design implementation.
-
-3. You can also edit the HTML, JavaScript, and TailwindCSS files to make modifications or experiment with different features.
-
 ## Project Structure
 
 The project structure is simple and organized as follows:
