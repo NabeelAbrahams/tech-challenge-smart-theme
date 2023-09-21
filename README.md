@@ -6,7 +6,11 @@ This repository contains the solution to the tech challenge, which involves recr
 
 The deployed application can be found [Live Here](https://nabeelabrahams.github.io/tech-challenge-smart-theme/).
 
+Application in Desktop View:
 ![Aplpication Desktop View](./assets/desktop-view.png)
+
+Application in Mobile View:
+![Aplpication Mobile View](./assets/mobile-view.png)
 
 ## Design Details
 
