@@ -2,14 +2,18 @@
 
 This repository contains the solution to the tech challenge, which involves recreating a design from Figma using HTML, JavaScript, and TailwindCSS. The main objective of this challenge is to demonstrate your ability to create responsive designs with TailwindCSS and well-structured semantic HTML. Additionally, some functionality is implemented using Vanilla JavaScript.
 
+_by Nabeel Abrahams_
+
 ## Deployed Application
 
 The deployed application can be found [Live Here](https://nabeelabrahams.github.io/tech-challenge-smart-theme/).
 
 Application in Desktop View:
+
 ![Aplpication Desktop View](./assets/desktop-view.png)
 
 Application in Mobile View:
+
 ![Aplpication Mobile View](./assets/mobile-view.png)
 
 ## Design Details
